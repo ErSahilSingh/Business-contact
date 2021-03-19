@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav1 {
+background-color: rgba(0, 0, 0, 0.877);
+}
+#nav1 li {
+padding-left: 20px;
+}
+
+#nav2 {
+    z-index: 10;
+    background-color:rgb(82, 82, 82);
+    }
+
+ #nav2 li {
+        padding-left: 20px;
+       }
+       /*--------------------------------cover-----------------------------------------------*/
+       
+ .masthead {
+        height: 75vh;
+        background-image: url('/DOWNLOAD/bulb.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      }
+     .masthead h1{
+         text-align: center ;
+         font-size: 88px;
+         color: rgba(255, 255, 255, 1);
+         font-weight: 600;
+     }
+
+
+     /*----------------------------footer----------------------------------------------*/
+
+.page-footer{
+    background-color:  rgba(10, 16, 63, 0.877);
+}
+
+
+/*------------------------------------login-----------------------------------------------*/
+.login-container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-left: 60%;
+}
+.login-form-1{
+    padding: 2%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h4{
+    padding-left: 55px;
+    color: #333;
+}
+.login-form-1 form{
+    position: 10%;
+}
+.login-form-1 {
+    background: rgba(255, 255, 255, 1);
+}
+.login-form-2{
+    padding: 2%;
+    padding-right: 4%;
+    background: rgba(77, 91, 168, 1);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h4{
+    color: #fff;
+}
+.login-form-2 li{
+    padding-bottom: 20px;
+    
+}
+
+/*------------------------------------trans--------------------------------------------------*/
+
+/*-------------------------------------footer----=-------------------------------------*/
+footer{
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.877);
+    margin-top: -30vh;
+}
+
+/*----------------------------------------------------------*/
+
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+
+
+/*-------------------------------reposive----------------------------------*/
+.Number {
+    display: inline;
+    margin-left: 10%;
+}
+
+
+@media only screen and (max-width: 767px){
+    
+    .Number {
+        display: none;
+    }
+   
+
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    
+    .Number {
+        display: none;
+    }
+    
+
+}

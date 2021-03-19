@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav1 {
+background-color: rgba(0, 0, 0, 0.877);
+}
+#nav1 li {
+padding-left: 20px;
+}
+
+#nav2 {
+    z-index: 10;
+    background-color:rgb(82, 82, 82);
+    }
+
+ #nav2 li {
+        padding-left: 20px;
+       }
+       /*--------------------------------cover-----------------------------------------------*/
+       
+ .masthead {
+        height: 75vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)),url('/DOWNLOAD/bulb.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      }
+     .masthead h1{
+         text-align: center ;
+         font-size: 88px;
+         color: rgba(255, 255, 255, 1);
+         font-weight: 600;
+     }
+
+
+     /*----------------------------footer----------------------------------------------*/
+
+.page-footer{
+    background-color: rgba(0, 0, 0, 0.877);
+}

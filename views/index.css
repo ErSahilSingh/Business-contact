@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav1 {
+background-color: rgba(0, 0, 0, 0.877);
+}
+#nav1 li {
+padding-left: 20px;
+}
+
+#nav2 {
+    z-index: 10;
+    background-color:rgb(82, 82, 82);
+    }
+
+ #nav2 li {
+        padding-left: 20px;
+       }
+       
+
+
+
+       /*---------------FOOTER--------------------*/
+       
+.page-footer{
+    background-color:  rgba(0, 0, 0, 0.877);
+}

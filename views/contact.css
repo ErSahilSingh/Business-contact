@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav1 {
+background-color: rgba(0, 0, 0, 0.877);
+}
+#nav1 li {
+padding-left: 20px;
+}
+
+#nav2 {
+    z-index: 10;
+    background-color:rgb(82, 82, 82);
+    }
+
+ #nav2 li {
+        padding-left: 20px;
+       }
+       /*--------------------------------cover----------------------------------------------*/
+       
+ .masthead {
+        height: 75vh;
+        background-image: url('/DOWNLOAD/bulb.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: -100vh;
+      }
+     .masthead h1{
+         text-align: center ;
+         font-size: 50px;
+         color: rgba(255, 255, 255, 1);
+         font-weight: 450;
+     }
+
+
+/*------------------------------------login-----------------------------------------------*/
+.login-container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-left: 60%;
+}
+.login-form-1{
+    padding: 2%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h4{
+    font-size: 39px;
+    padding-left: 0px;
+    color:rgba(10, 16, 63, 0.877);
+}
+.login-form-1 form{
+    position: 10%;
+}
+
+.login-form-1 {
+    background: rgba(255, 255, 255, 1);
+}
+.login-form-2{
+    padding: 2%;
+    padding-right: 4%;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h4{
+    color: #fff;
+    font-size: 30px;
+}
+.login-form-2 li{
+    padding-bottom: 20px;
+    
+}
+/*---------------------------------button------------------------------------------*/
+/*.btn{
+    text-decoration: none;
+    
+    
+}*/
+/*----------------------------footer----------------------------------------------*/
+
+.page-footer{
+    background-color:  rgba(0, 0, 0, 0.877);
+ 
+}
+
